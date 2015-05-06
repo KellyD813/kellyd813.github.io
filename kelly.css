@@ -41,15 +41,12 @@ h2 {
 	padding-left: 150px;
 	padding-top: 25px;
 	width: 200px;
-	height: 250;
+	height: 250px;
 }
 
 li {
 	list-style: none;
 }
-
-
-
 
 .social-media li {
 	display: inline;
