@@ -425,26 +425,30 @@ th {
 
 /*-----------*/
 
+
 html {
 	height: 100%
+
 }
 
 body {
 	font-family: 'Quicksand', sans-serif;
-  background-color: #F1A9A0;
-	position: relative;
-	height: 100%
+  background: url('images/flower_2.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   display: table;
+   height: 100%;
 }
 
 .information-container {
 	background-color: rgba(255, 255, 255, .6);
-	text-align: center;
-  height: 35%;
-  width: 40%;
-  border-radius: 500px;
-  margin-right: auto;
-  margin-left: auto;
-
+  display: table-cell;
+  height: 100%;
+  padding: 2em;
+  padding-top: 10em;
+  text-align: center;
 }
 
 h1 {
