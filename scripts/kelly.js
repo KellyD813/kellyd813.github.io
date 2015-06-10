@@ -1,5 +1,5 @@
-console.log("linked");
+console.log("heyheyhye");
 
-$( ".first" ).click(function() {
-	$( ".about" ).slideToggle( "fast" );
+$( ".about-button" ).click(function() {
+	$( ".about" ).slideToggle( "slow" );
 });
