@@ -9,8 +9,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-   display: table;
-   height: 100%;
+  display: table;
+  height: 100%;
+}
+
+.work {
+  background: url('../images/pink_power.jpg') no-repeat center center fixed; 
+  height: 100%;
+  width: 100%;
 }
 
 .information-container {
@@ -77,6 +83,7 @@ a {
 .more-info {
   border: solid black 1px;
   padding: .5em;
+  cursor: pointer;
 }
 
 .first {
@@ -88,12 +95,54 @@ a {
 }
 
 .about {
-  padding-top: 0;
+  padding: 0;
   background-color: #fff;
   border-radius: 5px;
   display: none;
-  padding: 1em;
 }
 
 
+/* Modal */
+
+.about {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: none;
+}
+
+.about-content {
+  background-color: #fff;
+  padding: 3em;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 24px;
+}
+
+.about-content h1 {
+  border-bottom: solid #ebebeb 1px;
+  padding-bottom: .5em;
+}
+
+.about.is-open {
+  display: block;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 36px;
+  margin-top: 1em;
+}
+
+.close:hover {
+  color: #fccbcf;
+}
 
