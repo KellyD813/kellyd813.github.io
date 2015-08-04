@@ -1,5 +1,3 @@
-console.log("heyheyhye");
-
 // Modal
 
 $('.about-button').click(function() {

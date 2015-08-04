@@ -4,13 +4,21 @@ html {
 
 body {
 	font-family: 'Quicksand', sans-serif;
-  background: url('../images/flower_2.png') no-repeat center center fixed; 
+    background: url('../images/pink_power.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display: table;
   height: 100%;
+}
+
+.home {
+  background: url('../images/flower_2.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .information-container {
@@ -140,3 +148,12 @@ a {
   color: #fccbcf;
 }
 
+.work {
+  background-color: rgba(255, 255, 255, .6);
+/*  height: 100%;*/
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2em;
+  width: 40%;
+}
