@@ -157,3 +157,15 @@ a {
   padding: 2em;
   width: 40%;
 }
+
+img {
+  border: solid black 1px;
+}
+
+.title {
+  padding-top: 0;
+}
+
+.content {
+  margin-bottom: 5em;
+}
