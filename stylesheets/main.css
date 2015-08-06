@@ -27,7 +27,6 @@ body {
   display: table-cell;
   height: 100%;
   padding: 2em;
-  padding-top: 10em;
   text-align: center;
 }
 
@@ -107,13 +106,23 @@ a {
 /* Modal */
 
 .about {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: rgba(0,0,0,0.5);
   display: none;
+}
+
+@media (min-height: 800px) {
+  .about {
+    position: fixed;
+  }
+
+  .information-container {
+    padding-top: 10em;
+  }
 }
 
 .about-content {
