@@ -34,7 +34,6 @@ h1 {
 	text-transform:  uppercase;
 	font-weight: bolder;
 	font-size: 4.5em;
-  padding-top: .5em;
 	margin-bottom: .5em;
 }
 
@@ -116,6 +115,10 @@ a {
 }
 
 @media (min-height: 800px) {
+  h1 {
+    padding-top: .5em;
+  }
+
   .about {
     position: fixed;
   }
