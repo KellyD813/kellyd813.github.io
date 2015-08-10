@@ -1,5 +1,7 @@
-// Modal
 $(function() {
+
+	// Modal
+
 	$('.about-button').click(function() {
 	  $('.about').toggleClass('is-open');
 	});
@@ -11,4 +13,8 @@ $(function() {
 	$('.about').click(function() {
 	  $('.about').removeClass('is-open');
 	});
+
 });
+
+
+
