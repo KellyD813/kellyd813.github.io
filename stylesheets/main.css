@@ -108,6 +108,18 @@ a {
   display: none;
 }
 
+.about-content {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 24px;
+}
+
 @media (min-height: 800px) {
   h1 {
     padding-top: .5em;
@@ -125,18 +137,6 @@ a {
   .about-content {
     margin-top: 2em;
   }
-}
-
-.about-content {
-  background-color: #fff;
-  padding: 3em;
-  border-radius: 5px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  line-height: 1.4;
-  font-size: 24px;
 }
 
 .about-content h1 {
@@ -168,6 +168,10 @@ a {
 @media (min-width: 1000px) {
   .work {
     width: 40%;
+  }
+
+  .about-content {
+    padding: 3em;
   }
 }
 
