@@ -173,3 +173,13 @@ footer a:hover {
   }
 
 }
+
+@font-face {
+  font-family: 'TruenoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('TruenoRegular'),
+    url('/fonts/truenorg-webfont.woff2') format('woff2'),
+    url('/fonts/truenorg-webfont.woff') format('woff');
+}
