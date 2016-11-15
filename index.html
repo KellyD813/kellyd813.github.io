@@ -1,52 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width">
-	<title>Kelly Devine</title>
-	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-	<link rel="stylesheet" href="stylesheets/normalize.css">
-	<link rel="stylesheet" href="stylesheets/main.css">
-	<link rel="icon" href="images/favicon.png">
-	<script src="scripts/jquery-2.1.4.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Kelly Devine is a web developer and dog enthusiast in New York City">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:site_name" content="Kelly Devine" />
+  <meta property="og:description" content="Kelly Devine is a web developer and dog enthusiast in New York City" />
+  <meta property="og:title" content="Kelly Devine" />
+  <meta property="og:url" content="http://kellyd813.com" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="Kelly Devine" />
+  <meta name="twitter:title" content="Kelly Devine" />
+  <meta name="twitter:description" content="Kelly Devine is a web developer and dog enthusiast in New York City" />
+  <meta name="twitter:domain" content="kellyd813.com" />
+  <title>Kelly Devine</title>
+  <link rel="stylesheet prefetch" href="https://fontlibrary.org/face/trueno">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://use.fontawesome.com/a59bed2f24.js"></script>
 </head>
-<body class="home">
 
-	<!-- Main Content -->
-	<div class="information-container">
+<body>
+  <section id="home" class="intro">
+    <div class="container">
+      <h1>Kelly Devine </h1>
+      <p>web developer &amp; dog enthusiast <a id="arrow" href="#about">&#10549;</a></p>
+    </div>
+  </section>
 
-		<h1>Kelly Devine</h1>
-		<h2>web developer | dog enthusiast</h2>
+  <section id="about" class="about">
+    <div class="container">
+      <h1>About</h1>
+      <p>I was born and raised in Florida, but have been living in New York City for the past four years.</p>
+      <p>I finished the Web Development Immersive at General Assembly in 2015. Working as a JavaScript Engineer at Oracle Maxymiser in website optimization.</p>
+      <p>Co-founder of <a href="http://galwdi.com/">GAL</a>, a meetup for women in tech to discuss new technologies. You can find me on <a href="https://www.linkedin.com/in/kellyd813">LinkedIn</a>, <a href="https://github.com/KellyD813">Github</a>, and <a href="https://www.instagram.com/kellyd813/">Instagram</a>.</p>
+      <a class="resume" href="downloads/Kelly-Devine_Resume.pdf">PDF Resume</a>
+    </div>
+  </section>
 
-		<ul class="social-media">
-			<li><a href="https://github.com/KellyD813"><i class="fa fa-github"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/kellyd813"><i class="fa fa-linkedin-square"></i></a></li>
-			<li class="last"><a href="https://instagram.com/kellyd813/"><i class="fa fa-instagram"></i></a></li>
-		</ul>
-		<div class="navigation">
-			<a class="more-info about-button">About</a>
-			<a class="more-info" href="work.html">Work</a>
-		</div>
+  <section class="work">
+    <div class="container">
+      <h1>Work</h1>
 
-	</div>
+      <!-- PODQUEST -->
+      <div class="project">
+        <a href="https://podquest.herokuapp.com/"><h2>PodQuest</h2></a>
+        <a href="https://podquest.herokuapp.com/"><img src="images/podquest_image.png"></a>
+        <p>PodQuest is a podcast player built for Fresh Air listeners. The site allows users to view a list of all Fresh Air podcasts. Additionally, Fresh Air podcasts can be filtered by tags, date, or duration.</p>
+        <p>Technology: HTML, CSS, JS, Soundcloud's API, AngularJS, Plangular</p>
+      </div>
 
-	<!-- About Modal -->
-	<div class="about">
+      <!-- HENRIETTA -->
+      <div class="project">
+        <a href="https://henriettawiki.herokuapp.com/"><h2>Henrietta</h2></a>
+        <a href="https://henriettawiki.herokuapp.com/"><img src="images/henrietta_image.png"></a>
+        <p>This project is a simple Wiki created for “Air-venturous”, a fictional, hot air balloon company.</p>
+        <p>An “Air-venturous” employee can search the Wiki for articles by browsing through article, category, or author pages. A user can also create, edit, or delete articles. Additionally, articles can be written in markdown.</p>
+        <p>Technology: HTML, CSS, Ruby, Sinatra, PostgreSQL</p>
+        <p>To Demo: Username &mdash; kd@company.com; Password &mdash; password</p>
+      </div>
 
-		<div class="about-content">
-			<h2>A little bit about me...</h2>
-			<p>I was born and raised in Florida, but have been living in New York City for the past three years.</p>
-			<p>I recently completed the Web Development Immersive at General Assembly.</p> 
-			<p>Please checkout my work!</p>
-			<a class="download" href="downloads/Kelly-Devine_Resume.pdf">PDF Resume</a>
-			<div class="close"><i class="ion-ios-close-outline"></i></div>
-		</div>
-		
-	</div>
+      <!-- TOAST -->
+      <div class="project">
+        <a href="http://kellyd813.github.io/POS/"><h2>Toast</h2></a>
+        <a href="http://kellyd813.github.io/POS/"><img src="images/toast_image.png"></a>
+        <p>“Toasted” Point of Sale is a POS system created for Toasted, a fictional, artisan, toast restaurant.</p>
+        <p>The Toasted POS includes items, prices, and images as well as a receipt area that updates as items are added to the bill.</p>
+        <p>Technology: HTML, CSS, Javascript, jQuery</p>
+      </div>
+    </div>
+  </section>
 
-<script src="scripts/main.js"></script>
+  <footer>
+    <a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/kellyd813"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a href="https://github.com/KellyD813"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/kellyd813/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="mailto:kellyd813@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+  </footer>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/index.js"></script>
+
 </body>
+
 </html>
