@@ -94,6 +94,8 @@ a {
 
 .work p {
   font-size: 1em;
+  color: #2c3e50;
+  width: 40%;
 }
 
 .resume {
@@ -158,10 +160,6 @@ footer a:hover {
 
   .work {
     margin-bottom: 3.5em;
-  }
-
-  .work p {
-    font-size: 1em;
   }
 
   .project {
