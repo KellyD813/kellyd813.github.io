@@ -95,7 +95,13 @@ a {
 .work p {
   font-size: 1em;
   color: #2c3e50;
-  width: 40%;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .work p {
+    width: 40%;
+  }
 }
 
 .resume {
