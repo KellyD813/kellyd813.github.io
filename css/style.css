@@ -79,11 +79,11 @@ a {
 
 .work a {
   text-decoration: none;
-  font-size: 1.5em;
 }
 
 .work a h2 {
   display: inline-block;
+  font-size: 1.5em;
 }
 
 .work img {
