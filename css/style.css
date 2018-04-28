@@ -87,7 +87,7 @@ a {
 }
 
 .work img {
-  max-width: 100%;
+  max-width: 50%;
   border: 1px solid #D2D2D2;
   display: block;
 }
@@ -100,7 +100,7 @@ a {
 
 @media (min-width: 1024px) {
   .work p {
-    width: 40%;
+    width: 50%;
   }
 }
 
