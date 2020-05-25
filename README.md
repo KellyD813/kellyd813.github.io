@@ -1,1 +1,1 @@
-Personal Site for Kelly Devine :)
+Personal Site for Kelly Devine

@@ -1,189 +1,119 @@
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
+main {
+  background-color: #f8f8f8;
 }
 
-body {
-  font-family: 'TruenoRegular';
+@media (min-width: 600px) {
+  main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95vw;
+    height: 95vh;
+  }
 }
 
 section {
-  display: flex;
-  align-items: center;
-  padding: 1em;
+  background-color: black;
+  color: #ffffff;
+  padding-top: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 14vw;
+  padding-left: 8vw;
+}
+
+@media (min-width: 600px) {
+  section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 5vw;
+    padding-right: 8.3vw;
+    padding-bottom: 5vw;
+    padding-left: 8.3vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  section {
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+  }
 }
 
 h1 {
-  font-size: 3em;
-  display: inline;
+  width: 100%;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  font-family: "Work Sans", sans-serif;
+  font-size: 10vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    margin-top: 0.83vw;
+    margin-bottom: 0;
+    font-size: 4.25vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 51px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 7vw;
+  font-family: "Work Sans", sans-serif;
+  font-size: 6vw;
+  font-weight: 300;
+  letter-spacing: 0.05vw;
+}
+
+@media (min-width: 600px) {
+  li {
+    margin-top: 1.5vw;
+    font-size: 1.83vw;
+    letter-spacing: 0.08vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  li {
+    margin-top: 18px;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
 }
 
 a {
-  cursor: pointer;
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-.container p {
-  position: relative;
-}
-
-#arrow {
-  opacity: 0;
-  color: white;
-  font-size: 2em;
-  position: absolute;
-  transform: rotate(10deg);
-  transition: opacity .5s ease;
+  color: #ffffff;
   text-decoration: none;
-  padding-left: 5px;
+  border-bottom: solid 1px #ffffff;
+  padding-bottom: 4px;
 }
 
-#arrow.animate {
-  opacity: 1;
-}
-
-.intro {
-  background-color: #0A31D2;
-  color: white;
-}
-
-.about,
-.work {
-  color: #0A31D2;
-  background-color: white;
-}
-
-.intro,
-.about {
-  height: 100vh;
-}
-
-.about p a,
-.work a h2 {
-  color: #0A31D2;
-  text-decoration: none;
-  border-bottom: 3px solid #0A31D2;
-}
-
-.about p a:hover,
-.work a h2:hover {
-  border-bottom: 3px solid #FC402F;
-}
-
-.work a {
-  text-decoration: none;
-}
-
-.work a h2 {
-  display: inline-block;
-  font-size: 1.5em;
-}
-
-.work img {
-  max-width: 50%;
-  border: 1px solid #D2D2D2;
-  display: block;
-}
-
-.work p {
-  font-size: 1em;
-  color: #2c3e50;
-  width: 100%;
-}
-
-@media (min-width: 1024px) {
-  .work p {
-    width: 50%;
+@media (min-width: 600px) {
+  a {
+    padding-bottom: 0.3vw;
   }
 }
 
-.resume {
-  display: inline-block;
-  color: #FC402F;
-  text-decoration: none;
-  border: solid 3px #FC402F;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-footer {
-  color: white;
-  background-color: #0A31D2;
-  text-align: center;
-  font-size: 1.4em;
-}
-
-footer i {
-  margin: .5em;
-}
-
-footer a {
-  color: white;
-}
-
-footer a:hover {
-  color: #FC402F;
-}
-
-
-@media (min-width: 560px) {
-  h1 {
-    font-size: 5em;
+@media (min-width: 1200px) {
+  a {
+    padding-bottom: 4px;
   }
-
-  .intro p,
-  .about p {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 780px) {
-
-  h1 {
-    font-size: 6em;
-  }
-
-  .container {
-    width: 80%;
-  }
-
-  #arrow {
-    font-size: 4em;
-    top: -8px;
-  }
-
-  .intro p,
-  .about p {
-    font-size: 1.75em;
-  }
-
-  .work {
-    margin-bottom: 3.5em;
-  }
-
-  .project {
-    margin-top: 5em;
-  }
-
-  footer {
-    font-size: 2em;
-  }
-
-}
-
-@font-face {
-  font-family: 'TruenoRegular';
-  font-style: normal;
-  font-weight: 400;
-  src:
-    local('TruenoRegular'),
-    url('/fonts/truenorg-webfont.woff2') format('woff2'),
-    url('/fonts/truenorg-webfont.woff') format('woff');
 }
