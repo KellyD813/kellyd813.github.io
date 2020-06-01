@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Kelly Devine is a web developer and dog enthusiast">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:site_name" content="Kelly Devine" />
+  <meta property="og:description" content="Kelly Devine is a web developer and dog enthusiast" />
+  <meta property="og:title" content="Kelly Devine" />
+  <meta property="og:url" content="https://kellyd813.com" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="Kelly Devine" />
+  <meta name="twitter:title" content="Kelly Devine" />
+  <meta name="twitter:description" content="Kelly Devine is a web developer and dog enthusiast" />
+  <meta name="twitter:domain" content="kellyd813.com" />
+  <title>Kelly Devine - Web Developer</title>
+  <link rel="stylesheet" href="fonts/loreal-paris-font.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!--
+  ******************************************************
+  Icons were sourced from the Noun Project contributors:
+  Vladimir Belochkin
+  Aybige
+  Richard Kunak
+  purplestudio
+  ******************************************************
+  -->
+
+  <!-- Landing Section -->
+  <div class="landing-section active">
+    <img class="hero" src="images/all_landing-section_hero.jpg" alt="Person with long flowing hair">
+    <div class="start-quiz-container">
+      <img src="images/all_landing-section_logo-elvive.png" alt="L'Oreal Paris Elvive logo">
+      <h1>Find your personalised hair routine in 60 seconds</h1>
+      <p>Want to know which Elvive product range is best for your hair type? If you’re unsure about which products suit your hair needs, then answer a few quick questions to find your tailored hair routine.</p>
+      <button class="loreal-paris-button start-quiz-trigger--js">Find my routine</button>
+    </div>
+  </div>
+
+  <!-- Progress Bar Section -->
+  <div class="progress-bar-section">
+    <div class="progress-visual-container">
+      <!-- Populated via JS -->
+      <div class="bar"></div>
+    </div>
+    <div class="progress-text-container">
+      <p>Hair Length</p>
+      <p>Hair Type</p>
+      <p>Hair Concerns</p>
+      <p>Hair Dyed?</p>
+      <p>Hair Goals</p>
+    </div>
+  </div>
+
+  <!-- Question Section -->
+  <div class="question-section">
+    <!-- Question 1: Choose your hair length -->
+    <div class="question image-based active" data-question-id="1" data-question-copy="Q1 - Hair Length">
+      <h1>Choose your hair length</h1>	
+      <div class="answer-container">
+        <div class="answer" data-question-id="1" data-question-copy="Q1 - Hair Length" data-answer-copy="Short">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-length-short.jpg" alt="Cartoon outline of a person with short hair">
+            <p>Short</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="1" data-question-copy="Q1 - Hair Length" data-answer-copy="Mid-Length">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-length-mid-length.jpg" alt="Cartoon outline of a person with mid-length hair">
+            <p>Mid-Length</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="1" data-question-copy="Q1 - Hair Length" data-answer-copy="Long">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-length-long.jpg" alt="Cartoon outline of a person with long hair">
+            <p>Long</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 2: Choose your hair type -->
+    <div class="question image-based" data-question-id="2" data-question-copy="Q2 - Hair Type">
+      <h1>Choose your hair type</h1>	
+      <div class="answer-container">
+        <div class="answer" data-question-id="2" data-question-copy="Q2 - Hair Type" data-answer-copy="Fine">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-type-fine.jpg" alt="Cartoon outline of a fine hair">
+            <p>Fine</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="2" data-question-copy="Q2 - Hair Type" data-answer-copy="Normal">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-type-normal.jpg" alt="Cartoon outline of a normal hair">
+            <p>Normal</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="2" data-question-copy="Q2 - Hair Type" data-answer-copy="Thick">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-type-thick.jpg" alt="Cartoon outline of a thick hair">
+            <p>Thick</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="2" data-question-copy="Q2 - Hair Type" data-answer-copy="Curly">
+          <div class="content-container">
+            <img src="images/all_question-section_hair-type-curly.jpg" alt="Cartoon outline of a curly hair">
+            <p>Curly</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 3: Choose your main hair concern -->
+    <div class="question text-based" data-question-id="3" data-question-copy="Q3 - Hair Concern">
+      <h1>Choose your main hair concern</h1>	
+      <div class="answer-container">
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Colour Fading">
+          <div class="content-container">
+            <p>Colour Fading</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Dry or Dull">
+          <div class="content-container">
+            <p>Dry or Dull</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Breakage">
+          <div class="content-container">
+            <p>Breakage</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Hair Loss">
+          <div class="content-container">
+            <p>Hair Loss</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Thinning Hair">
+          <div class="content-container">
+            <p>Thinning Hair</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="3" data-question-copy="Q3 - Hair Concern" data-answer-copy="Damaged">
+          <div class="content-container">
+            <p>Damaged</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 4: Do you dye your hair? -->
+    <div class="question image-based" data-question-id="4" data-question-copy="Q4 - Hair Dye">
+      <h1>Do you dye your hair?</h1>	
+      <div class="answer-container">
+        <div class="answer" data-question-id="4" data-question-copy="Q4 - Hair Dye" data-answer-copy="No">
+          <div class="content-container">
+            <img src="images/all_question-section_dye-hair-no.jpg" alt="X icon">
+            <p>No</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="4" data-question-copy="Q4 - Hair Dye" data-answer-copy="Yes, Blonde or Silver">
+          <div class="content-container">
+            <img src="images/all_question-section_dye-hair-yes-blonde-or-silver.jpg" alt="Check icon">
+            <p>Yes, Blonde or Silver</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="4" data-question-copy="Q4 - Hair Dye" data-answer-copy="Yes, Other">
+          <div class="content-container">
+            <img src="images/all_question-section_dye-hair-yes-other.jpg" alt="Plus icon">
+            <p>Yes, Other</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 5: Choose your ultimate hair goal -->
+    <div class="question text-based" data-question-id="5" data-question-copy="Q5 - Hair Goal">
+      <h1>Choose your ultimate hair goal</h1>	
+      <div class="answer-container">
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Colour Radiance">
+          <div class="content-container">
+            <p>Colour Radiance</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Extra Volume">
+          <div class="content-container">
+            <p>Extra Volume</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Shine & Nourishment">
+          <div class="content-container">
+            <p>Shine & Nourishment</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Sleek">
+          <div class="content-container">
+            <p>Sleek</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Sealed Split Ends">
+          <div class="content-container">
+            <p>Sealed Split Ends</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Stronger and More Resistant">
+          <div class="content-container">
+            <p>Stronger and More Resistant</p>
+          </div>
+        </div>
+        <div class="answer" data-question-id="5" data-question-copy="Q5 - Hair Goal" data-answer-copy="Bouncy Defined Curls">
+          <div class="content-container">
+            <p>Bouncy Defined Curls</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Result Section -->
+  <div class="result-section">
+    <h1>We Recommend</h1>
+    <div class="recommendation-container">
+      <div class="product" data-product="Shampoo">
+        <p class="product-number">1</p>
+        <div class="product-details-container">
+          <!-- Populate via JS: shampooImageURL -->
+          <img class="product-image-url" src="" alt="Elvive Shampoo product">
+          <!-- Populate via JS: shampooName -->
+          <p class="product-name"></p>
+        </div>
+        <!-- Populate via JS: shampooURL -->
+        <a class="product-url" href="#" target="_blank">Discover Now</a>
+      </div>
+      <div class="product" data-product="Conditioner">
+        <p class="product-number">2</p>
+        <div class="product-details-container">
+          <!-- Populate via JS: conditionerImageURL -->
+          <img class="product-image-url" src="" alt="Elvive Conditioner product">
+          <!-- Populate via JS: conditionerName -->
+          <p class="product-name"></p>
+        </div>
+        <!-- Populate via JS: conditionerURL -->
+        <a class="product-url" href="#" target="_blank">Discover Now</a>
+      </div>
+      <div class="product" data-product="Intensive">
+        <p class="product-number">3</p>
+        <div class="product-details-container">
+          <!-- Populate via JS: intensiveImageURL -->
+          <img class="product-image-url" src="" alt="Elvive Intensive product">
+          <!-- Populate via JS: intensiveName -->
+          <p class="product-name"></p>
+        </div>
+        <!-- Populate via JS: intensiveURL -->
+        <a class="product-url" href="#" target="_blank">Discover Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Section -->
+  <div class="navigation-section">
+    <div class="navigation-container">
+      <button class="previous previous-question-trigger--js">Previous</button>
+      <button class="restart restart-quiz-trigger--js">Restart</button>
+    </div>
+  </div>
+
+  <!-- Microexperience Functionality -->
+  <script src="main.js"></script>
+</body>
+</html>
