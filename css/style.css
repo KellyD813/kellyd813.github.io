@@ -103,6 +103,7 @@ a {
   text-decoration: none;
   border-bottom: solid 1px #ffffff;
   padding-bottom: 4px;
+  transition: 0.5s opacity ease-in-out;
 }
 
 @media (min-width: 600px) {
@@ -114,5 +115,11 @@ a {
 @media (min-width: 1200px) {
   a {
     padding-bottom: 4px;
+  }
+}
+
+@media (min-width: 600px) {
+  a:hover {
+    opacity: 0.6;
   }
 }
