@@ -29,18 +29,18 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     padding-top: 5vw;
-    padding-right: 8.3vw;
+    padding-right: 7.5vw;
     padding-bottom: 5vw;
-    padding-left: 8.3vw;
+    padding-left: 7.5vw;
   }
 }
 
 @media (min-width: 1200px) {
   section {
     padding-top: 60px;
-    padding-right: 100px;
+    padding-right: 90px;
     padding-bottom: 60px;
-    padding-left: 100px;
+    padding-left: 90px;
   }
 }
 
