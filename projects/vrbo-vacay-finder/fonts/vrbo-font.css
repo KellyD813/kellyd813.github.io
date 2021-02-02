@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Regular.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Regular.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Regular.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Regular.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBlack-Italic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro Book';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBook-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBook-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBook-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBook-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBook-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Regular.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Regular.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Regular.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProBold-Italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro Book';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFPro-Book.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFPro-Book.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFPro-Book.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFPro-Book.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFPro-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Regular.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Regular.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Regular.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProLight-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Regular.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Regular.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Regular.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Regular.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Regular.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Regular.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProMedium-Italic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightSansLF Pro';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Italic.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Italic.eot?#iefix') format('embedded-opentype'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Italic.woff2') format('woff2'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Italic.woff') format('woff'),
+  url('https://proserve-microexperiences.s3.amazonaws.com/expedia/vrbo/vacay-finder/fonts/FreightSansLFProSemibold-Italic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
