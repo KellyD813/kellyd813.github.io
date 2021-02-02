@@ -44,6 +44,13 @@ section {
   }
 }
 
+
+@media (min-width: 600px) {
+  .projects section {
+    width: 70vw;
+  }
+}
+
 h1 {
   width: 100%;
   margin-top: 6vw;

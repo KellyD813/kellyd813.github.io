@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Campton Book';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Bold.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Bold.woff2') format('woff2'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Bold.woff') format('woff'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton Light';
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Light.eot');
+  src: url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Light.eot?#iefix') format('embedded-opentype'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Light.woff2') format('woff2'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Light.woff') format('woff'),
+    url('https://proserve-microexperiences.s3.amazonaws.com/loreal/loreal-paris/elvive-hair-routine-finder/fonts/Campton-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
