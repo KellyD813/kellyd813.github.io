@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const projectBank = [
+  {
+    title: "Project 1",
+    description: "Description for Project 1",
+    role: "Role for Project 1",
+    image: "./src/assets/project1.jpg",
+    link: "/project-1"
+  },
+  {
+    title: "Project 2",
+    description: "Description for Project 2",
+    role: "Role for Project 2",
+    image: "./src/assets/project2.jpg",
+    link: "/project-2"
+  }
+]
+---
+
+<Layout>
+  <h1>Projects</h1>
+  <p>Here are some of the projects I've worked on:</p>
+  <section>
+  {
+    projectBank.map((project, index) => (
+      <section data-key={index}>
+        <div>
+          <img src={project.image} alt={project.title} />
+        </div>
+        <p>{project.title}</p>
+        <p>{project.description}</p>
+        <p>{project.role}</p>
+        <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+      </section>
+    ))
+  }
+  </section>
+</Layout>
